@@ -1,0 +1,103 @@
+/**********************************
+***    GENERAL CSS
+**********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(42deg, rgba(27, 24, 237, 1) 0%, rgba(236, 49, 236, 1) 100%);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.center {
+    width: 430px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.center .header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding: 25px 0 30 25px;
+    background: linear-gradient(273deg, rgba(27, 24, 237, 1) 0%, rgba(38, 60, 247, 1) 18%, rgba(252, 68, 236, 1) 100%);
+    border-bottom: 1px solid #370e3f;
+    border-radius: 10px 10px 0 0;
+}
+
+.center .header h4 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.center form {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    /*    border: 1px solid #6d1c7d;*/
+    border-radius: 0 0 10px 10px;
+    border: none;
+}
+
+form input {
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+form input[type="password"] {
+    margin-top: 20px;
+}
+
+form i {
+    position: absolute;
+    font-size: 20px;
+    color: grey;
+    margin: 18px 0 0 -35px;
+}
+
+i.fa-lock {
+    margin-top: 30px;
+}
+
+form .btn {
+    width: 130px;
+    margin: 25px 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 60 0;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(273deg, rgba(27, 24, 237, 1) 0%, rgba(38, 60, 247, 1) 18%, rgba(252, 68, 236, 1) 100%);
+}
+
+form .btn:hover {
+    background: linear-gradient(90deg, rgba(27, 24, 237, 1) 0%, rgba(38, 60, 247, 1) 18%, rgba(252, 68, 236, 1) 100%);
+    transition: .3s;
+}
+
+a.link {
+    font-size: 14px;
+    margin-left: 25px;
+    color: #000;
+}
